@@ -1,0 +1,48 @@
++-------------------+
+|  <<interface>>    |
+| ReprodutorMusical |
++-------------------+
+| + reproduzir()    |
+| + pausar()        |
+| + parar()         |
+| + selecionarMusica()|
++-------------------+
+
++--------------------+
+|  <<interface>>     |
+|  AparelhoTelefonico|
++--------------------+
+| + fazerChamada()   |
+| + receberChamada() |
+| + enviarMensagem() |
++--------------------+
+
++-------------------+
+|  <<interface>>    |
+| NavegadorInternet |
++-------------------+
+| + navegar()       |
+| + abrirURL()      |
+| + adicionarFavorito()|
++-------------------+
+
+       ^         ^         ^
+       |         |         |
+       |         |         |
+       +---------+---------+
+                 |
+                 |
+             +-------+
+             | iPhone|
+             +-------+
+             | +reproduzir()|
+             | +pausar()    |
+             | +parar()     |
+             | +selecionarMusica()|
+             | +fazerChamada()|
+             | +receberChamada()|
+             | +enviarMensagem()|
+             | +navegar()    |
+             | +abrirURL()   |
+             | +adicionarFavorito()|
+             +-------+
